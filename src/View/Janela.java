@@ -151,7 +151,7 @@ public class Janela extends javax.swing.JFrame {
         sucesso = pControl.cadastraPessoa(nomeTextField.getText(),emailTextField.getText(),cpfTextField.getText());
         
         if(sucesso == true){
-            JOptionPane.showMessageDialog(null,"Cadastro feito");
+            JOptionPane.showMessageDialog(null,"Pessoa ressucitada com louvor.");
             
         }else{
             JOptionPane.showMessageDialog(null,"Vish");
